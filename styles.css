@@ -1,0 +1,133 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sweater1{
+    background-color:darkgoldenrod; 
+     width: 400px;
+     height: 600px;
+     float: left;
+     margin-right: 100px;
+     margin-left: 15px;
+     
+     
+      }
+.sweater2{
+    background-color:darkgoldenrod;
+    width: 400px;
+    height: 600px;
+    float: left;
+    
+}
+.sweater3{
+    background-color:darkgoldenrod;
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 15px;
+    
+}
+.basket{
+    background-color: cadetblue;
+}
+.sweater4{
+    background-color: darkgoldenrod;
+    width: 400px;
+    height: 600px;
+    float: right;
+}
+.h1{
+    background-color: coral;
+    width: 100½; 
+    height: 100px;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 7px;
+   
+    color:maroon;
+    size: 30px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+
+    
+}
+img{
+    padding:50px;
+    
+}
+.btnclass{
+    background-color:darkgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 75px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color:chartreuse;
+    font-size: 30px;
+}
+
+.cartbtn{
+    color: chocolate;
+    width: 64px;
+    height: 64px;
+    background-image: url("cart.png");
+    background-repeat: no-repeat;
+}
+
+.newitembtn{
+    background-color: rgb(30, 210, 39);
+    width: 64px;
+    height: 64px;
+    background-image: url("new.png");
+    background-repeat: no-repeat;
+}
+
+#addNewProduct{
+    visibility: hidden;
+    height:240px;
+    width: 320px;
+    position: fixed;
+    display: inline;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    left: 35%;
+    background-color: #1a3352;
+    padding:  25px;
+}
+
+#CheckOutScreen{
+    visibility: hidden;
+    height:240px;
+    width: 320px;
+    position: fixed;
+    display: inline;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    left: 35%;
+    background-color: #1a3352;
+    padding:  25px;
+}
+h2,p{
+    color: crimson;
+    size: 10px;
+}
+.sweaters{
+    float: left;
+    height:800px ;
+
+}
+.bttn{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 50px;
+    size: 15px;
+    margin-right: 50px;
+    
+}

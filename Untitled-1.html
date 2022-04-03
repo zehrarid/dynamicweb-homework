@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="homework.js"></script>
+    <title>SWEATERLAND</title>
+    <link rel="icon" type="image/x-icon" href="favicon2.ico">
+    <link rel="stylesheet" href="styles.css">
+<style>
+
+body{        
+    background-color: brown;
+    color:antiquewhite;}
+</style>
+</head>
+<body>
+    <header>
+        <h1 class="h1" style="text-align: center;color:maroon;">SWEATERLAND</h1>
+    </header>   
+    <button id="showcartbtn" class="cartbtn" onclick="checkoutScreen()"></button>    
+    <button id="addnewitembtn" class="newitembtn" ></button>    
+    <div id="cartContainer" class="sweater"></div>
+    <div id="addNewProduct">
+        <form>
+            <label>ProductTitle : </label>
+            <input id="productTitle" type="text" ><br></br>
+            <label >ProductDescription : </label>
+            <input id="productDescription" type="text"><br></br>
+            <label >ProductImage : </label>
+            <input id="productImage" type="url" ><br></br>
+            <label>ProductPrice : </label>
+            <input id="productPrice" type="number"><br></br>
+            <input onclick="addItem()" type="button" value="Add Product" style="width: 100px; height: 40px; background-color: coral;">
+        </form>
+    </div>
+    <div id="CheckOutScreen">
+        <form>
+            <label>Address</label>
+            <input type="text"><br><br>
+            <label>Payment Style</label><br><br>
+            <input id="creditCart" type="radio" name="payment" value="credit card"> <label for="r1">credit card </label><br>
+            <input id="cash" type="radio" name="payment" value="cash"> <label for="r2">cash</label><br>
+            <input if="check"type="checkbox" value="Confirm"> <label for="check">confirm</label><br><br>
+            <input type="button" value="okay" onclick="OkayBttn()">
+            <input type="button" value="cancel" onclick="CancelBttn()">
+        </form>
+
+    </div>
+    <div class="sweaters"><img src="download.jpeg" style="width: 600px; height: 700px;"><button class="bttn">add cart</button></div>
+    <div class="sweaters"><img src="reddiesweater.jpeg"style="width: 600px; height: 700px;" ><button class="bttn">add cart</button></div>
+    <div class="sweaters"><img src="fishsweater.jpeg" style="width: 600px; height: 700px;"><button class="bttn">add cart</button></div>
+    <div class="sweaters"><img src="sweater1.jpeg" style="width: 600px; height: 700px;"><button class="bttn">add cart</button></div>
+
+
+</body>    
+</html>
